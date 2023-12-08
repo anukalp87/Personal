@@ -9,6 +9,8 @@
 body{
     background: #0e0315;
     color: rgb(255, 255, 255);
+    font-family: 'CustomFont', sans-serif;
+
 }
 #header{
     width: 100%;
@@ -40,7 +42,7 @@ h1{
     margin-top: 100px;
     margin: 50px auto;
     width: fit-content;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Josefin Sans', sans-serif;
     padding: 10px 10%;
     border: 1px solid #000000;
     padding: 0.75rem 1.2rem;
@@ -206,27 +208,24 @@ nav ul li a:hover::after{
     font-size: 30px;
     font-weight: 500;
     color: #4db5ff;
-    margin-bottom: 15px;
     text-align: center;
 }
 .services-list div:hover{
     background: #1f1f38
 }
-.services-list p{
+.services-list div p{
     font-size: 20px;
     text-align: left;
-     margin-top: 10px;
     color: white;
 }
-.services-list g{
+.services-list div g{
     text-align: right;
     font-size: 18px;
     color: rgb(211, 177, 177);
 }
-.services-list h5{
+.services-list div h5{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
-    margin-top: 10px;
     text-align: left;
     color: white;
 }
