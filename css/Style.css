@@ -8,7 +8,7 @@
  }
 body{
     background: #0e0315;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #header{
     width: 100%;
@@ -26,13 +26,13 @@ h5{
     text-align: center;
     margin-bottom: 5px;
     font-weight: bold; 
-    color: #fcfcff;
+    color: #ffffff;
 }
 h1{
     display: block;
     font-size: 40px; 
     text-align: center;
-    color: #f9f9f9;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 .btn{
@@ -40,6 +40,7 @@ h1{
     margin-top: 100px;
     margin: 50px auto;
     width: fit-content;
+    font-family: 'IBM Plex Mono', monospace;
     padding: 10px 10%;
     border: 1px solid #000000;
     padding: 0.75rem 1.2rem;
@@ -71,15 +72,18 @@ h1{
 }
 .sidemenu{
     display: inline-block;
+    font-size: 20px;
 }
 .container{
     padding: 10px 10%;
 }
 .container h4{
+    font-family: 'Silkscreen', sans-serif;
     margin-top: 20px;
     font-size: 35px; 
 }
 .container h2{
+    font-family: 'Silkscreen', sans-serif;
     margin-top: 0.56px;
     font-size: 45px;
 }
@@ -99,8 +103,9 @@ nav ul li{
 }
 nav ul li a{ 
     text-decoration: none;
-    color: white; 
-    font-size: 18px;
+    color: rgb(246, 239, 239); 
+    font-size: 22px;
+    font-weight: bold;
     position: relative;
 }
 nav ul li a::after{
@@ -126,11 +131,13 @@ nav ul li a:hover::after{
 .text h1{
     margin-top: 1%;
     text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 25px;
     color: hsla(0, 19%, 73%, 0.6);
 }
 .text h3{
     font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
     color: #4db5ff;
 }
@@ -155,7 +162,9 @@ nav ul li a:hover::after{
 .about-col-2{
     margin-top: 7%;
     flex-basis: 60%;
+
     text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
 }
 .about-col-2 p{
     text-align: left;
@@ -215,6 +224,7 @@ nav ul li a:hover::after{
     color: rgb(211, 177, 177);
 }
 .services-list h5{
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 15px;
     margin-top: 10px;
     text-align: left;
@@ -232,12 +242,14 @@ nav ul li a:hover::after{
     margin-top: 0.5px;
  }
  .know p{
-    margin-top: 40px;
+    margin: 70px;
     font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
     text-align: center;
     color: #ffffff;
  }
  .know a{
+    font-family: 'IBM Plex Mono', monospace;
     text-decoration: none;
     color: #4db5ff;
  }
@@ -264,15 +276,16 @@ nav ul li a:hover::after{
 }
 .work h2{
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     color: rgb(104, 214, 236);
 }
 .work p{
+    font-family: 'IBM Plex Mono', monospace;
     color: white;
     text-align: left;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 15px;
 }
 .work a{
     display: flex;
@@ -354,6 +367,8 @@ nav ul li a:hover::after{
     margin-bottom: 0.1rem;
 }
 .btn.btn2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
     display: inline-block;
     font-size: 14px;
     margin-top: 5px;
@@ -434,7 +449,7 @@ footer a i:hover {
 }
 small {
     
-    font-size: smaller;
+    font-size: large;
     margin-top: 50px;
     color: rgb(0, 0, 0);
 }
@@ -445,6 +460,15 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     .container{
         padding: 0px 5px;
+    }
+    .container h4{
+        font-size: 20px;
+    }
+    .container h2{
+        font-size: 20px;
+    }
+    .about-col-2 p{
+        font-size: 10px;
     }
     .ram{
         padding: 10px 10%;
